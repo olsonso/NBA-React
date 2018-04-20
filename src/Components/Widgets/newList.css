@@ -1,0 +1,13 @@
+.newList_item{
+  border-bottom:1px solid black;
+  margin-top: 0px;
+  padding: 8px 5px 0 5px;
+}
+
+.newList_item h2 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 200;
+  margin:5px 0;
+  color: black;
+}
