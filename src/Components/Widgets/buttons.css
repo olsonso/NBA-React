@@ -7,5 +7,7 @@
   color:#eeeeee;
   padding:9px;
   cursor: pointer;
+  display:block;
+  text-decoration: none;
   font-size: 14px;
 }

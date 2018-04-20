@@ -24,7 +24,9 @@ componentWillMount(){
   axios.get(`${URL}/articles/?_start=${start}&_end=${end}`)
   .then(res => {
     this.setState({
-      item:[...this.state.item, ...res.data]
+      item:[...this.state.item, ...res.data],
+      start,
+      end
       })
     })
 }
