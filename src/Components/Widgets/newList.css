@@ -1,7 +1,7 @@
 .newList_item{
   border-bottom:1px solid black;
   margin-top: 0px;
-  padding: 8px 5px 0 5px;
+  padding: 8px 5px 0 0px;
 }
 
 .newList_item h2 {
@@ -10,4 +10,17 @@
   font-weight: 200;
   margin:5px 0;
   color: black;
+}
+
+.newsList_wrapper {
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all .5s ease-in;
+}
+
+.newsList_wrapper_enter{
+  opacity: 1;
+  transform: translateX(0%);
+
 }
